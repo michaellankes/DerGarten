@@ -1,0 +1,35 @@
+/* Standard system font while playtesting (see theme.ts USE_PIXEL_FONT). */
+
+body {
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #1f2a1c;
+}
+
+/* Phaser measures its parent: the container must be as big as the app area */
+#game-container {
+    width: 100%;
+    height: 100%;
+}
+
+#app {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Readable start-up error (content file incomplete) */
+#fatal {
+    margin: 24px;
+    padding: 16px;
+    white-space: pre-wrap;
+    font: 14px/1.5 Consolas, monospace;
+    color: #ffb3b0;
+    background: #2b1a1a;
+    border: 2px solid #d9534f;
+    border-radius: 6px;
+}
