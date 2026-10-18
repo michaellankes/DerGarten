@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100">
+  <!-- Manipulation check: the book keeps the entry without a name, and later gardeners see it -->
+  <rect width="160" height="100" rx="8" fill="#7fb069"/>
+  <path d="M18 24 Q22 18 30 18 H76 V84 H30 Q22 84 18 78 Z" fill="#8a5a2b"/>
+  <path d="M84 18 H130 Q138 18 142 24 V78 Q138 84 130 84 H84 Z" fill="#8a5a2b"/>
+  <rect x="24" y="24" width="52" height="54" fill="#f6ecd3"/>
+  <rect x="84" y="24" width="52" height="54" fill="#f6ecd3"/>
+  <g stroke="#b9a98a" stroke-width="2" stroke-linecap="round">
+    <line x1="30" y1="36" x2="68" y2="36"/><line x1="30" y1="44" x2="60" y2="44"/><line x1="30" y1="52" x2="66" y2="52"/><line x1="30" y1="60" x2="56" y2="60"/>
+  </g>
+  <rect x="89" y="29" width="42" height="13" rx="3" fill="#d9d2c3"/>
+  <text x="110" y="39" font-family="Nunito, Arial, sans-serif" font-size="9" font-weight="700" fill="#8f8572" text-anchor="middle">Name</text>
+  <line x1="92" y1="42" x2="128" y2="29" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+  <g stroke="#b9a98a" stroke-width="2" stroke-linecap="round">
+    <line x1="90" y1="52" x2="126" y2="52"/><line x1="90" y1="60" x2="118" y2="60"/><line x1="90" y1="68" x2="124" y2="68"/>
+  </g>
+  <g transform="translate(134 90)">
+    <path d="M-16 0 Q0 -11 16 0 Q0 11 -16 0 Z" fill="#ffffff" stroke="#3b2a14" stroke-width="2"/>
+    <circle r="4.5" fill="#3b2a14"/>
+  </g>
+</svg>
